@@ -78,11 +78,6 @@ button {
     cursor: pointer;
 }
 
-#resetInput {
-    
-}
-
-
 strong#response {
     display: flex;
     justify-content: center;
