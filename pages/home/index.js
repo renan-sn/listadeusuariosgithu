@@ -77,12 +77,7 @@ $(function() {
                 $usuarioInArray.forEach(function(item) {
 
                     /* ABREVIAR BIOGRAFIA */
-                    let testeNome;
                     let testeBio;
-
-                    if (item.dadosDoUsuario.name === null) {
-                        testeNome = 'Sem nome';
-                    }
 
                     if (item.dadosDoUsuario.bio === null) {
                         testeBio = 'Sem biografia';
@@ -95,7 +90,7 @@ $(function() {
 
                     /* CRIA ELEMENTOS */
                     let $avatar = $('<img src=' + "'" + `${item.dadosDoUsuario.avatar_url}` + "'" + " " + 'id=avatar>');
-                    let $nome = $(`<strong id="name">${testeNome}</strong>`);
+                    let $nome = $(`<strong id="name">${item.dadosDoUsuario.name}</strong>`);
                     let $biografia = $(`<p id="bio">${testeBio} </p>`);
                     let $acessar = $('<a id="url" href=' + "'" + `${item.dadosDoUsuario.html_url}` + "'" + ' target="_blank"> Acessar</a>');
 
