@@ -103,7 +103,7 @@ $(function() {
                         $acessar
                     ));
                     
-                    $divResponse.append($elementosCarregados).slideDown(200);
+                    $divResponse.prepend($elementosCarregados).slideDown(200);
                     
                 });
 
