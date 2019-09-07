@@ -135,7 +135,6 @@ $(function() {
         $('div#response').css({ display: 'none'});
 
         $usuarioInArray = [];
-        
     });
 
 });

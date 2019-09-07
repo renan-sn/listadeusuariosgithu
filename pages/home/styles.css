@@ -10,8 +10,6 @@ body {
     background: #dadada;
 }
 
-
-
 /* HEADER */
 header#header-container {
    height: 50px;
@@ -57,7 +55,6 @@ div#div-form {
     width: 100%;
     top: 50px; 
 }
-
 
 #repo-form {
     width: 500px;
@@ -106,8 +103,6 @@ div#response {
     
 }
 
-
-
 /* DIV RESPONSE AND DADOS ADD */
 div#response-data {
     margin: 30px auto 0 auto;
@@ -152,7 +147,6 @@ div#response-data {
     border-radius: 8px;
     text-decoration: none;
     color: #da252f;
-    
 }
 
 #url:hover {
