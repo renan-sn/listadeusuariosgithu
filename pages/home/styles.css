@@ -44,6 +44,15 @@ h2#header-title {
 h2#header-title strong#open-busca:hover {
     text-decoration: none;
     cursor: pointer;
+    transition: all 0.2s;
+    background: #fff;
+    color: #da252f;
+}
+strong#open-busca {
+    border: solid 1px white;
+    border-radius: 5px;
+    padding: 5px;
+    transition: all 0.2s;
 }
 
 div#div-form {
